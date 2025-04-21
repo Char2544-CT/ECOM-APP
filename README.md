@@ -1,12 +1,21 @@
-# React + Vite
+# Advanced JS & Intro to React (Starter Code)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+There are three components that make this application work:
+- ``App.jsx``
+- ``ProductList.jsx``
+- ``ProductItem.jsx``
 
-Currently, two official plugins are available:
+In ``App.jsx`` we are creating an array of products and storing it via the useState hook. We are then passing that array of products to our ``ProductList`` component, which we are rendering once.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+In our ``ProductList`` component we are using JavaScript's ``map()`` function to access each item in our list of products one at a time, and for each product we're rendering a ``ProductItem`` component.
 
-## Expanding the ESLint configuration
+As we render the ProductItem component, we pass each individual product to it. Inside of ProductItem we render each product's individual properties: ``name``, ``price``, ``description``.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# TO RUN THIS PROJECT:
+1. Navigate into the project folder.
+2. Open terminal.
+3. Type ``npm install`` to install your dependencies from ``package.json`` (this creates the ``node_modules`` folder)
+4. Type ``npm run dev`` to run the project.
+5. Ctrl + click the link that appears in the terminal (it should look something like this: ``http://localhost:5174/``
+
+If step 4 does not work and you get an error, try this command instead: ``.\node_modules\.bin\vite``
