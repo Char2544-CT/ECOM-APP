@@ -1,5 +1,3 @@
-# Advanced JS & Intro to React (Starter Code)
-
 There are three components that make this application work:
 - ``App.jsx``
 - ``ProductList.jsx``
@@ -11,11 +9,7 @@ In our ``ProductList`` component we are using JavaScript's ``map()`` function to
 
 As we render the ProductItem component, we pass each individual product to it. Inside of ProductItem we render each product's individual properties: ``name``, ``price``, ``description``.
 
-# TO RUN THIS PROJECT:
-1. Navigate into the project folder.
-2. Open terminal.
-3. Type ``npm install`` to install your dependencies from ``package.json`` (this creates the ``node_modules`` folder)
-4. Type ``npm run dev`` to run the project.
-5. Ctrl + click the link that appears in the terminal (it should look something like this: ``http://localhost:5174/``
+CSS:
 
-If step 4 does not work and you get an error, try this command instead: ``.\node_modules\.bin\vite``
+I used custom inline styling with React to generate a grid 
+
