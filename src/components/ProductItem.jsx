@@ -1,14 +1,10 @@
 
 //Example of inline styling with React
 const style = {
-    color: 'blue',
     backgroundColor: 'lightgray',
     border: '1px solid black',
     borderRadius: '15px',
     margin: '20px',
-    //display: 'grid',
-    //gridTemplateColumns: 'repeat(1, 1fr)', // 1 column for each html element
-    //gridItems: 'center',
     padding: '20px',
 }
 
