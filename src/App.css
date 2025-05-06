@@ -37,3 +37,13 @@
   line-height: 1.5;
   margin-bottom: 15px;
 }
+
+/* Style for buttons */
+.products-button {
+  padding: 10px 20px;
+  border: black;
+  border-radius: 10px;
+  margin: 5px;
+  color: black;
+  background-color: #f0f0f0;
+}
